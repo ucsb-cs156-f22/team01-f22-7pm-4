@@ -11,7 +11,7 @@ Lab instructions: <https://ucsb-cs156.github.io/f22/lab/team01/>
 |           |           | `PublicHolidayQueryService` | `PublicHolidayController` |   
 |           |           | `RedditQueryService`        | `RedditController`        |   
 |           |           | `TidesQueryService`         | `TidesController`         |   
-|           |           | `UniversityQueryService`    | `UniversityController`    |
+|   Tanish  |  tkumar07 | `UniversityQueryService`    | `UniversityController`    |
 |           |           | `ZipCodeQueryService`       | `ZipCodeController`       |
 ```
 
