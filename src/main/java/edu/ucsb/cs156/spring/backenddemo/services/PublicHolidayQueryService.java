@@ -38,7 +38,7 @@ public class PublicHolidayQueryService {
         log.info("year={}, countryCode={}", year, countryCode);
         HttpHeaders headers = new HttpHeaders();
         headers.setAccept(List.of(MediaType.APPLICATION_JSON));
-        headers.setAccept(List.of(MediaType.APPLICATION_JSON));
+        headers.setContentType(MediaType.APPLICATION_JSON);
 
         HttpEntity<String> entity = new HttpEntity<>(headers);
 
@@ -46,6 +46,7 @@ public class PublicHolidayQueryService {
 
         ResponseEntity<String> re = restTemplate.exchange(ENDPOINT, HttpMethod.GET, entity, String.class,
                 uriVariables);
+        
         return re.getBody();
     }
 
