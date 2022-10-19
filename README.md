@@ -12,7 +12,7 @@ Lab instructions: <https://ucsb-cs156.github.io/f22/lab/team01/>
 |           |           | `RedditQueryService`        | `RedditController`        |   
 |           |           | `TidesQueryService`         | `TidesController`         |   
 |   Tanish  |  tkumar07 | `UniversityQueryService`    | `UniversityController`    |
-|           |           | `ZipCodeQueryService`       | `ZipCodeController`       |
+| Lawrence  |RAILGUN1124| `ZipCodeQueryService`       | `ZipCodeController`       |
 ```
 
 
