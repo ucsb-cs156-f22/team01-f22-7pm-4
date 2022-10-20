@@ -21,7 +21,7 @@ Repo: https://github.com/ucsb-cs156-f22/team01-f22-7pm-4
   a link to your running app on Heroku, e.g.
   https://cs156-f22-5pm-2-team01.herokuapp.com
 
-On Heroku: https://cs156-f22-5pm-2-team01.herokuapp.com
+On Heroku: https://cs156-f22-7pm-4-team01.herokuapp.com
 
 ## About this repo
 
