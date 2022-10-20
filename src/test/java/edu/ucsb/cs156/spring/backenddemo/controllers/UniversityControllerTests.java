@@ -36,6 +36,7 @@ public class UniversityControllerTests {
     when(mockUniversityQueryService.getJSON(eq(name))).thenReturn(fakeJsonResult);
 
     String url = String.format("/api/university/get");
+    
 
     MvcResult response = mockMvc
         .perform( get(url).contentType("application/json"))
