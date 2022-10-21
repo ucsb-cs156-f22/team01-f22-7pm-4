@@ -43,8 +43,10 @@ public class RedditQueryServiceTests {
         // java.net.URI uri = new java.net.URI(expectedURL);
 
         this.mockRestServiceServer.expect(requestTo(expectedURL))
+                .andExpect(header("Accept", MediaType.APPLICATION_JSON.toString()))
+                .andExpect(header("Content-Type", MediaType.APPLICATION_JSON.toString()))
+                .andExpect(header("User-Agent", "spring-boot:cs156-team01:f22 (by /u/imawesomeguy117)"))
                 .andRespond(withSuccess(fakeJSON, MediaType.APPLICATION_JSON));
-
         String actualResult = RedditQueryService.getJSON("UCSantaBarbara");
         assertEquals(fakeJSON, actualResult);
     }
