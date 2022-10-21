@@ -7,10 +7,10 @@ Lab instructions: <https://ucsb-cs156.github.io/f22/lab/team01/>
 ```
 |   Name    | GitHub Id |  Service                    | Controller                |
 |-----------|-----------|-----------------------------|---------------------------| 
-|           |           | `LocationQueryService`      | `LocationController`      |   
+|  Archit   |spartan105 | `LocationQueryService`      | `LocationController`      |   
 |           |           | `PublicHolidayQueryService` | `PublicHolidayController` |   
 |           |           | `RedditQueryService`        | `RedditController`        |   
-| Archit    |spartan105 | `TidesQueryService`         | `TidesController`         |   
+|  Richard  |ruiqiRichard| `TidesQueryService`         | `TidesController`         |   
 | Tanish    |tkumar07   | `UniversityQueryService`    | `UniversityController`    |
 | Lawrence  |RAILGUN1124| `ZipCodeQueryService`       | `ZipCodeController`       |
 
