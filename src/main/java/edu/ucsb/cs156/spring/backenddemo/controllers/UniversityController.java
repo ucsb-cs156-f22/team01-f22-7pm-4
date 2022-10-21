@@ -20,6 +20,7 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 
 @Api(description="University info from https://github.com/Hipo/university-domains-list")
+@Slf4j
 @RestController
 @RequestMapping("/api/university")
 public class UniversityController {

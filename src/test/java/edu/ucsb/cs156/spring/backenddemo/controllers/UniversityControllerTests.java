@@ -29,13 +29,13 @@ public class UniversityControllerTests {
   UniversityQueryService mockUniversityQueryService;
 
   @Test
-  public void test_getCollegeSubreddits() throws Exception {
+  public void test_getUniversity() throws Exception {
   
-    String name = "University";
+    String name = "UniversityOfCaliforniaSantaBarbara";
     String fakeJsonResult="{ \"fake\" : \"result\" }";
     when(mockUniversityQueryService.getJSON(eq(name))).thenReturn(fakeJsonResult);
 
-    String url = String.format("/api/university/get");
+    String url = String.format("/api/university/get?name=%s", name);
     
 
     MvcResult response = mockMvc
