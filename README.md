@@ -2,24 +2,17 @@
 
 Lab instructions: <https://ucsb-cs156.github.io/f22/lab/team01/>
 
-* TODO: Update the following table, then delete this line that says "TODO".
-
 ```
 |   Name    | GitHub Id    |  Service                    | Controller                |
 |-----------|-----------   |-----------------------------|---------------------------| 
-|  Archit   |spartan105    | `LocationQueryService`      | `LocationController`      |   
+| Archit    |spartan105    | `LocationQueryService`      | `LocationController`      |   
 | Nathan    |nathanmathew02| `PublicHolidayQueryService` | `PublicHolidayController` |   
-|           |              | `RedditQueryService`        | `RedditController`        |   
-|  Richard  |ruiqiRichard  | `TidesQueryService`         | `TidesController`         |   
+| Daniel    |FinalGale     | `RedditQueryService`        | `RedditController`        |   
+| Richard   |ruiqiRichard  | `TidesQueryService`         | `TidesController`         |   
 | Tanish    |tkumar07      | `UniversityQueryService`    | `UniversityController`    |
 | Lawrence  |RAILGUN1124   | `ZipCodeQueryService`       | `ZipCodeController`       |
 
 Repo: https://github.com/ucsb-cs156-f22/team01-f22-7pm-4
-
-* TODO: Correct the links to app on Heroku below, 
-  then delete this TODO.  Replace it with 
-  a link to your running app on Heroku, e.g.
-  https://cs156-f22-5pm-2-team01.herokuapp.com
 
 On Heroku: https://cs156-f22-7pm-4-team01.herokuapp.com
 
